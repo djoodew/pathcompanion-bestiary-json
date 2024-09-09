@@ -1,5 +1,6 @@
 # How to Use
 Update newBestiaryDB.js with any changes you think are needed to fix the bestiary entry.
+Note: bestiaryDB.json is the ORIGINAL information and only there for historical purposes.
 
 In PathCompanion, use the bestiary import tool to import your changed JSON block and check your work
 
