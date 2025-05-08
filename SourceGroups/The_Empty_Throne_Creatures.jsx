@@ -1,0 +1,238 @@
+
+export const The_Empty_ThroneCreatures = {
+  "Wind Yai": {
+    source: "The Empty Throne",
+    creatureType: "outsider",
+    subTypes: [
+      "air",
+      "giant",
+      "native",
+      "oni",
+      "shapechanger"
+    ],
+    alignments: [
+      "Lawful Evil"
+    ],
+    size: "Huge",
+    hd: 20,
+    hdVal: 10,
+    cr: 16,
+    racialFeatures: [
+      "Darkvision 60 ft.",
+      "Low-Light Vision"
+    ],
+    speed: {
+      base: 40,
+      maneuverability: "Good",
+      fly: 60
+    },
+    abilities: {
+      str: 35,
+      dex: 16,
+      con: 22,
+      int: 15,
+      wis: 20,
+      cha: 21
+    },
+    feats: [
+      {
+        name: "Awesome Blow",
+        type: "Combat"
+      },
+      {
+        name: "Cleave",
+        type: "Combat"
+      },
+      {
+        name: "Combat Casting",
+        type: "General"
+      },
+      {
+        name: "Combat Reflexes",
+        type: "Combat"
+      },
+      {
+        name: "Great Cleave",
+        type: "Combat"
+      },
+      {
+        name: "Great Fortitude",
+        type: "General"
+      },
+      {
+        name: "Improved Bull Rush",
+        type: "Combat"
+      },
+      {
+        name: "Power Attack",
+        type: "Combat"
+      },
+      {
+        name: "Quicken Spell-Like Ability",
+        type: "Monster",
+        value: "Shout",
+        choiceSource: "Quicken Spell-Like Ability"
+      },
+      {
+        name: "Weapon Focus",
+        type: "Combat",
+        value: "Morningstar",
+        choiceSource: "Weapon Focus"
+      }
+    ],
+    attacks: [
+      {
+        weapon: "Morningstar",
+        enchantments: [
+          {
+            name: "Masterwork",
+            source: "inherent"
+          }
+        ],
+        name: "Morningstar",
+        damage: "1d8"
+      },
+      {
+        weapon: "Slam",
+        name: "2 Slams",
+        damage: "1d4",
+        type: "primary"
+      },
+      {
+        weapon: "Shocking missile",
+        qualities: [
+          "touch"
+        ],
+        name: "Shocking missile",
+        specialAbility: "deafen",
+        damage: "4d6"
+      }
+    ],
+    defense: {
+      SR: {
+        value: 27
+      },
+      naturalArmor: 16
+    },
+    space: "15 ft.",
+    reach: "15 ft.",
+    environment: "temperate mountains",
+    visualDescription: "A third eye rests on the forehead of this ornately robed giantess, her figure half-shrouded in the darkness of a starry night that swirls continuously about her.",
+    description: "Wind yai may take after the graceful cloud giants in general appearance, but given their hard, icy stares and the brooding manner in which they carry themselves, observers may not immediately relate the two races. Whereas cloud giants wear their finely made robes and ornate jewelry with an air of regality and serenity, their oni imitators manage to make even the humblest garments and adornments seem ostentatious, and are always shrouded in an air of darkness that many liken to an ill omen. Though wind yai look as though they have one foot in the light of day and the other in the darkness of night, the shadow that perpetually swirls about the otherworldly beings is not the result of any natural source; in actuality, the supernatural night that constantly follows wind yai is a raw magical manifestation of their foul intentions and evil nature. Wind yai do not shape the winds-they force their will upon them, commanding the powers of the sky to commit acts of domineering brutality with none of the natural grace normally associated with the element. Whereas a cloud giant is always accompanied by a gentle breeze, the malicious wind yai brings with it only furious storms, the chaotic winds tossing its hair about and blowing dust into its unblinking triad of eyes. A wind yai is 20 feet tall and weighs over 5,000 pounds. Ecology A wind yai does not appear to walk upon the ground so much as glide across it-but even then, its exaggerated movements and overbearing demeanor make every footstep a thunderous stomp. An unexpected wayward breeze is enough to throw a stony-faced wind yai into a fit of rage, the delicate motions of nature an ever-present reminder of the wind yai's own blustering presence and lack of grace. Thus are wind yai desperate to gain some semblance of control over the capricious winds, and they use their sheer might and monstrous resolve to bend that untamable force to their will, taking pleasure in not only controlling nature, but also using it for unnatural acts of destruction. Wind yai tend to wear thick, showy robes and heavy jewelry, though their great strength still allows them to move swiftly and with ease. Like all yai, wind yai each possess a third eye through which they can emit rays of destructive energy. In the case of wind yai, this powerful beam takes the form of a lightning bolt, as the oni channel the very essence of the storm into their attacks, simultaneously electrocuting their opponents while rendering them deaf with the cacophonous boom of thunder that follows the attack. They also possess the unique ability to send their foes flying into the air, commanding bursts of wind to carry their enemies aloft and bring them crashing back to the earth. Habitat & Society Cloud giants possess one other thing wind yai yearn to claim mastery over-their instruments. But rather than use such delicate tools to create melodious works of art, wind yai are interested in their more destructive properties, and have a particular respect for bards, especially those who bend others to their will with their music. Thus do they tend to seek out such rhythmically inclined individuals, and when faced with a foe who possesses musical skill, wind yai will invariably seek to keep that individual alive, so they can force it to serve as the wind yai's enslaved jester and musician. An ensnared performer is usually forced to entertain its master until its fingers are cracked and raw and it inevitably falters while playing. Wind yai are hardly patient creatures, but nothing sets them off in quite the same way as a weak or inept musician, and even the most innocent mistake can mean the fatal end for an indentured bard. When wind yai are not presented with a suitable performer to capture and dominate, they seek out magical instruments, having a particular affection for rare, magical instruments, especially those with strings. A wind yai takes great pride in its musical possessions, and also finds a unique pleasure in assembling masses of enslaved musicians to perform thunderous symphonies. Wind yai also take great pleasure in dominating cloud giants, perhaps even more so than bards, as they revere cloud giants' heavenly melodies above all others. Rather than apprehend these giants one by one, however, wind yai seek to dominate entire tribes of such beings, using their powers over the skies to trick particularly superstitious groups into thinking the oni are earthbound demigods or celestial messengers sent from on high. Groups of wind yai can be an even fiercer force, gathering entire legions of cloud giants under their command and leading them in aerial campaigns against helpless creatures on land. Evil cloud giants tend to make the best soldiers for wind yai leaders, though if the oni can manage to sway good-aligned cloud giants under their banner, the subsequent wars they wage are all the more satisfying.",
+    organization: "solitary, gang (2-4), or storm (5-8)",
+    languages: "Common, Giant",
+    spellLikeAbilities: [
+      {
+        name: "cloak of winds",
+        casterLevel: 16,
+        timesPerDay: -1
+      },
+      {
+        name: "fly",
+        casterLevel: 16,
+        timesPerDay: -1
+      },
+      {
+        name: "darkness",
+        casterLevel: 16,
+        timesPerDay: -1
+      },
+      {
+        name: "gaseous form",
+        casterLevel: 16,
+        timesPerDay: -1
+      },
+      {
+        name: "invisibility",
+        casterLevel: 16,
+        limitations: "self only",
+        timesPerDay: -1
+      },
+      {
+        name: "levitate",
+        casterLevel: 16,
+        timesPerDay: -1
+      },
+      {
+        name: "control weather",
+        casterLevel: 16,
+        timesPerDay: 3
+      },
+      {
+        name: "shout",
+        casterLevel: 16,
+        limitations: "Metamagic: Quicken ",
+        timesPerDay: 3
+      },
+      {
+        name: "wind wall",
+        casterLevel: 16,
+        timesPerDay: 3
+      },
+      {
+        name: "chain lightning",
+        casterLevel: 16,
+        timesPerDay: 1
+      },
+      {
+        name: "whirlwind",
+        casterLevel: 16,
+        timesPerDay: 1
+      }
+    ],
+    skills: {
+      Bluff: {
+        ranks: 20
+      },
+      Disguise: {
+        ranks: 23
+      },
+      Fly: {
+        ranks: 18
+      },
+      Intimidate: {
+        ranks: 23
+      },
+      Perception: {
+        ranks: 20
+      },
+      Perform0: {
+        subSkill: "string",
+        ranks: 23
+      },
+      "Sense Motive": {
+        ranks: 20
+      },
+      Stealth: {
+        ranks: 19
+      }
+    },
+    special: {
+      "roaring gale": {
+        type: "Su",
+        text: "As a standard action three times per day, a wind yai can select a point within sight on which to conjure a violent updraft, violently flinging its opponents into the air. When it uses this ability, the wind yai must make a single bull rush combat maneuver check (CMB equal to the wind yai's caster level + its Cha bonus; +21 for most wind yai) against all creatures in a 10-foot-radius burst. Any creature with a CMD score lower than the result of this check is hurled 1d6 x 10 feet straight up, and lands prone in a spot 1d4 x 5 feet from its original position. The wind yai selects the direction it wishes to throw its victims, and may select a different direction for each victim, though each must be thrown in a straight line. Creatures take falling damage for any impacts while traveling up or down in this way; if a creature collides with an object during its sideways movement, both the creature and the object take 1d6 points of damage and the creature is knocked prone in the space adjacent to the obstacle. Shocking Missile (Su) As a swift action, a wind yai can fire a bolt of electricity from its third eye as a ranged touch attack. This attack has a range of 180 feet with no range increment, and deals 4d6 points of damage. If the creature struck is wearing metal armor or is made of metal, it instead takes 4d8 points of damage. Upon being struck by this attack, the victim must make a DC 25 Fortitude save or be deafened for 1d4 rounds. The save DC is Charisma-based."
+      },
+      "change shape": {
+        universalMonsterAbility: "Change Shape",
+        spell: "or Huge humanoid; alter self or giant form II",
+        type: ", or Huge humanoid; alter self or giant form II"
+      },
+      regeneration: {
+        universalMonsterAbility: "Regeneration",
+        type: "Ex",
+        damageType: "acid or fire",
+        value: 5
+      },
+      deafen: {
+        type: "Ex"
+      }
+    },
+    resistances: [
+      {
+        damageType: "sonic",
+        value: 5
+      }
+    ]
+  },
+
+};
